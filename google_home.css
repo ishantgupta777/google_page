@@ -1,0 +1,121 @@
+body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        height: 755px;
+        overflow: hidden;
+}
+header nav{
+    width:100%;
+    float:right;
+}
+
+header ul, footer ul #right{
+    float: right;
+}
+header li {
+    display: inline-block;   
+}
+header li a{
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    font-size: 18px;
+    height: 24px;
+    margin: 10px 7px; 
+}
+header li a i{
+    vertical-align: middle;
+}
+#search{
+    width: 100%;
+}
+
+section img{
+    height: 30%;
+    width : 25%;
+    margin : 35px auto;
+    position: relative;
+    top: 70%;
+    left:38%;
+    margin-top: 110px;
+    padding-top: 80px;
+}
+
+#searchbar{
+    width: 25%;
+    margin: -15px auto;
+    text-align: center;
+    border : 2px solid #efefef;
+    border-radius: 20px;
+}
+#searchbar input{
+    margin: 5px 5px;
+    width: 85%;
+    height: 40px;
+    border:none;
+    
+}
+#searchbar a i{
+    padding-left: 5px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+}
+#button_1{
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+button{
+    background: #f2f2f2;
+    color: #5F6368;
+    border: 2px solid #f2f2f2;
+    line-height: 27px;
+    margin : 0 5px 10px 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width : 160px;
+}
+#lang{
+    text-align: center;
+    margin-top: -20px;
+}
+#lang a{
+    text-decoration: none;
+    font-size: 15px;
+}
+footer{
+    background-color: #f2f2f2;
+    margin-top: 245px;
+    height : 81px;
+}
+footer #country {
+    height : 40px;
+    margin-left: 40px;
+}
+footer p{
+    padding-top: 10px;
+    font-size: 20px;
+    color : #5F6368;
+    margin-left: 8px;
+}
+footer  #left{
+    float:left;
+    
+}
+footer  #right{
+    float:right;
+    padding-right: 80px;
+}
+footer #navv{
+    width:100%;
+    border-top: 1px solid #5F6368;
+    height : 30px;
+}
+footer li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color : #5F6368;
+    padding : 0px 10px;
+}
